@@ -15,6 +15,7 @@ echo "sleep 3"
 # remove brackets |
 # replace keypress with the corresponding dotool command |
 # replace keydown with the corresponding dotool command |
+# replace keyup with the corresponding dotool command
 cat $1 | awk '{sub(/Numpad/, "")}{print}' |
   awk '{sub(/Sleep,/, "sleep")}{print}' |
     awk '{if($1 == "sleep") $2=$2/1000}{print}' |
