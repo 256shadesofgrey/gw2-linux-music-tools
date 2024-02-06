@@ -15,7 +15,7 @@ This script is the same as above, but keys are not being held down. So every key
 ### swap-9-0.sh <input.sh>
 This script swaps key presses 9 and 0 used for octave/mode switching, since that seems to be the wrong way around in the scripts from gw2mb, but I don't know if it applies to all of them, so I wrote this separately from the main conversion scripts.
 
-### tempo-modifier.sh <input.sh> <factor>
+### tempo-modifier.sh <input.sh> \<factor\>
 Multiplies all delays by a given factor.
 
 ### Examples
